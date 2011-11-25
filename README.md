@@ -23,10 +23,10 @@ Build codecola without chrome extension environment
 ------------------------------------------
 ###Step1:###
 open "native/config.js" modify `YUI_config`:
-`base :'https://github.com/paulakg4/code-cola/'`
+`base :'https://raw.github.com/paulakg4/code-cola/master/'`
 
 ###Step2:###
 insert js to your web page
-`<script charset="utf-8" src="https://github.com/paulakg4/codecola/yui3.js"></script>`
-`<script charset="utf-8" src="https://github.com/paulakg4/code-cola/native/config.js"></script>`
-`<script charset="utf-8" src="https://github.com/paulakg4/code-cola/codecola.js"></script>`
+`<script charset="utf-8" src="https://raw.github.com/paulakg4/code-cola/master/yui3.js"></script>`
+`<script charset="utf-8" src="https://raw.github.com/paulakg4/code-cola/master/native/config.js"></script>`
+`<script charset="utf-8" src="https://raw.github.com/paulakg4/code-cola/master/codecola.js"></script>`
