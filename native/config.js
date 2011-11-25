@@ -3,7 +3,7 @@ var YUI_config = {
 };
 YUI_config.groups['codecola'] = {
     combine: false,
-    base :'http://cloud/',
+    base :'https://github.com/paulakg4/code-cola/',
     modules:{
         'codecola-i18n': function(){
             var language = navigator.language.toLowerCase() == 'zh-cn'?'zh-CN':'en';
